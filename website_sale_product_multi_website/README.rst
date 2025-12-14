@@ -10,37 +10,26 @@
    :target: https://www.gnu.org/licenses/agpl
    :alt: License: AGPL-3
 
-=======================
-Website Sale Order Type
-=======================
+==================================
+Website Sale Product Multi Website
+==================================
 
-This module add to Website configuration Settings the field "Sale Order Type".
-We name it website_sale_order_type_ux_ux so that we dont overlap with OCA module website_sale_order_type_ux but actually we dont depend on OCA module (at least for now)
+By default, Odoo allows to set just one (or all) website for products to be sold on eCommerces, by setting the field product_template.website_id (a many2one field). This module allows to set more than one value (website) in this field (convert it in a many2many field).
 
 Installation
 ============
 
-To install this module, you need to:
-
-#. Just install...
+Just install.
 
 Configuration
 =============
 
-To configure this module, you need to:
-
-#. Go to Website configuration Settings.
-#. Choose a Sale Order Type
+Not required.
 
 Usage
 =====
 
-To use this module, you need to:
-
-
-.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
-   :alt: Try me on Runbot
-   :target: http://runbot.adhoc.com.ar/
+Just install it.
 
 Bug Tracker
 ===========
