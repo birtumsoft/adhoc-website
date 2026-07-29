@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2015  Moldeo Interactive and ADHOC SA
+#    Copyright (C) 2024  ADHOC SA
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -18,20 +18,19 @@
 #
 ##############################################################################
 {
-    "name": "Website Sale Hide All Prices Product Configurator",
-    "category": "website",
-    "version": "17.0.1.0.0",
+    "name": "Website Sale Background Post",
+    "version": "18.0.1.0.0",
     "author": "ADHOC SA",
     "website": "www.adhoc.com.ar",
     "license": "AGPL-3",
     "depends": [
-        "website_sale_product_configurator",
-        "website_sale_hide_all_prices",
+        "account_background_post",
+        "website_sale",
     ],
-    "images": [],
     "data": [
-        "views/templates.xml",
+        "views/res_config_settings_views.xml",
     ],
-    "installable": False,
-    "auto_install": True,
+    "installable": True,
+    "auto_install": False,
+    "application": False,
 }
